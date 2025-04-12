@@ -17,7 +17,7 @@ export const ProductDetail = ({ products }) => {
 
    const removeProductById = async (productId) => {
       setOptimisticProducts(productId);
-      await removeProduct(productId); // ⬅️ Should use Mongoose `findByIdAndDelete`
+      await removeProduct(productId); // Should use Mongoose `findByIdAndDelete`
    };
 
    return (
