@@ -1,7 +1,7 @@
 "use client";
 
 import { useOptimistic } from "react";
-import { removeProduct } from "../actions/page"; // ⬅️ Ensure this uses Mongoose to delete
+import { removeProduct } from "../actions/page"; //  Ensure this uses Mongoose to delete
 import Link from "next/link";
 import Form from "next/form";
 
